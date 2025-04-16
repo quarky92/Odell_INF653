@@ -1,0 +1,97 @@
+h1
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    background-color: white;
+    padding: 0.5em;
+}
+
+h2
+{
+    text-align: center;
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    background-color: wheat;
+}
+
+form
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.25em;
+    margin: auto;
+    padding-top: 0.25em;
+}
+
+table
+{
+    margin: auto;
+    width: 50%;
+}
+
+td
+{
+    text-align: center;
+}
+
+.sell_table,
+.pad,
+#vehicle_edit,
+#type_edit,
+#make_edit,
+#class_edit
+{
+    background-color: rgb(202, 255, 243);
+    width: 75%;
+    margin-top: 0;
+    margin: auto;
+}
+
+#type_edit form,
+#make_edit form,
+#class_edit form
+{
+    width: 25%;
+}
+
+.css-filter
+{
+    display: flex;
+    align-content: center;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.edit-buttons
+{
+    display: flex;
+    margin: auto;
+}
+
+.pad
+{
+    padding-bottom: 50em;
+}
+
+tr
+{
+    background-color: white;
+}
+
+tr:nth-child(even)
+{
+    background-color: rgb(193, 193, 193);
+}
+
+.admin_footer
+{
+    background-color: white;
+    padding-bottom: 3em;
+}
